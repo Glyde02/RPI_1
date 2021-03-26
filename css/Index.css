@@ -1,0 +1,544 @@
+@font-face {
+    font-family: "GothamRoundedBold";
+    src: url(../fonts/GothamRounded-Bold.otf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: "GothamRoundedLight";
+    src: url(../fonts/Gotham-Light.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "GothamRoundedMedium";
+    src: url(../fonts/GothamRounded-Medium.otf);
+    font-weight: normal;
+}
+
+body{
+    font-family: "GothamRoundedBold";
+
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 1.8;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header{
+    padding-top: 70px;
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header .container{
+    width: 765px;
+}
+.header_nav{
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    color: white;
+
+}
+.header_logo{
+    margin-top: -26px;
+
+}
+.header_link{
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3px;
+
+    color: white;
+    text-decoration: none;
+}
+
+.header_link:hover{
+    transition: 0.2s linear;
+    color: red;
+}
+.header_phototime{
+    visibility: hidden;
+}
+
+.intro{
+    margin: 0;
+    width: 100%;
+    height: 745px;
+    background: url(../css/img/Livello1.png) center no-repeat;
+    background-size: cover;
+}
+
+.intro_yourlife{
+    padding: 324px 0 0 9px;
+    font-size: 35px;
+    letter-spacing: 6px;
+    text-align: center;
+    color: white;
+    margin-bottom: -6px;
+
+}
+.intro_printlife{
+    font-family: "GothamRoundedMedium";
+    padding-top: -110px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-align: center;
+    color: white;
+}
+.intro_button{
+    margin-top: 20px;
+    margin-left: 557px;
+    display: inline-block;
+    padding: 15px 0 0 29px;
+    border-radius: 3px;
+
+    width: 166px;
+    height: 48px;
+    color: white;
+    background-color: #16a085;
+
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.intro_button:hover{
+    transition: 0.2s linear;
+    color: red;
+}
+.intro_icons{
+    margin: 223px auto;
+    display: flex;
+    justify-content: center;
+
+    color: white;
+}
+.intro_icon{
+    margin-left: 8px;
+    margin-right: 8px;
+
+    background-size: cover;
+}
+.intro_icon:hover{
+    cursor: pointer;
+}
+
+
+
+.rappresent{
+    height: 493px;
+    width: 100%;
+    background-color: #f5f6f7;
+}
+.rappresent_title{
+    height: 100%;
+    color: #16a085;
+
+
+    width: 100%;
+    max-width: 530px;
+    padding: 108px 0 0 128px;
+    font-size: 17px;
+    letter-spacing: 3.5px;
+
+    line-height: 22px;
+}
+.rappresent_text{
+    width: 100%;
+    max-width: 448px;
+    font-family: "GothamRoundedLight";
+
+    font-size: 12px;
+    line-height: 24px;
+
+    margin-top: 38px;
+    margin-left: 128px;
+
+    letter-spacing: 0.5mm;
+}
+.rappresent_bold{
+    font-family: "GothamRoundedMedium";
+    font-weight: bold;
+}
+.rappresent_button{
+
+    display: inline-block;
+    margin: 28px 0 0 128px;
+    padding-top: 18px;
+    width: 192px;
+    height: 51px;
+
+    border-radius: 3px;
+    background-color: #16a085;
+    outline: none;
+
+    font-family: "GothamRoundedMedium";
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+}
+.rappresent_button:hover{
+    transition: 0.2s linear;
+    color: red;
+
+}
+.rappresent_img{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: -231px;
+}
+
+
+.design{
+    width: 100%;
+    background-color: white;
+    position: relative;
+
+}
+.design_title{
+    font-family: "GothamRoundedBold";
+    padding: 141px 0 0 766px;
+    font-size: 17px;
+    color: #16a085;
+    line-height: 22px;
+    letter-spacing: 3px;
+
+}
+.design_text{
+
+    font-family: "GothamRoundedLight";
+    width: 100%;
+    max-width: 440px;
+    margin: -1px 0 0 769px;
+    padding: 34px 0 0 0;
+
+    font-size: 11px;
+    letter-spacing: 2px;
+    line-height: 22px;
+}
+.design_bold{
+    font-family: "GothamRoundedBold";
+}
+.design_button{
+    display: inline-block;
+    margin: 38px 0 0 768px;
+    padding-top: 16px;
+    width: 192px;
+    height: 51px;
+
+    background-color: #16a085;
+    outline: none;
+
+    font-family: "GothamRoundedMedium";
+    font-size: 11px;
+    letter-spacing: 2.5px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+}
+.design_button:hover{
+    transition: 0.2s linear;
+    color: red;
+}
+
+.design_numbers{
+    display: flex;
+    padding: 0;
+    font-size: 12px;
+    font-family: "GothamRoundedBold";
+
+    margin: 40px 0 0 768px;
+}
+.design_num{
+    font-family: "GothamRoundedMedium";
+    letter-spacing: 2px;
+}
+.design_arrows{
+    display: flex;
+    margin: 3px 0 0 768px;
+}
+.design_arr{
+    margin-right: 20px;
+}
+.design_arr:hover{
+    cursor: pointer;
+}
+
+.design_iphone{
+    position: absolute;
+    top: 146px;
+    left: 124px;
+}
+
+.community{
+    margin-top: 82px;
+    width: 100%;
+    background-color: #f5f6f7;
+    position: relative;
+}
+.community_arrows{
+    padding: 94px 128px 0 1114px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.community_inner{
+    margin: 10px auto 0;
+    width: 1024px;
+    display: flex;
+}
+.community_info{
+    width: 258px;
+}
+.community_logo{
+    margin: 45px 0 0 59px;
+}
+.community_title{
+    margin: 16px 0 0 0;
+
+    font-family: "GothamRoundedBold";
+    font-size: 16px;
+    letter-spacing: 0.63mm;
+}
+.community_text{
+    width: 177px;
+    height: 197px;
+    font-family: "GothamRoundedMedium";
+
+    margin: 15px 0 0 0;
+    text-align: center;
+    font-size: 9px;
+    letter-spacing: 2px;
+    line-height: 12px;
+}
+.community_images{
+    display: inline-block;
+    width: 766px;
+
+}
+.community_img_left{
+    width: 370px;
+    height: 254px;
+    float: left;
+    padding-bottom: 10px;
+
+}
+.community_img_right{
+    width: 370px;
+    height: 254px;
+    float: right;
+    padding-bottom: 10px;
+}
+
+.community_arrow:hover{
+    cursor: pointer;
+}
+
+
+
+.subscribe{
+    width: 100%;
+    height: 790px;
+    background: url("../css/img/subscribe.png") center no-repeat;
+}
+.subscribe_text{
+    padding: 341px 0 0 404px;
+    font-size: 23px;
+    letter-spacing: 4px;
+    color: white;
+}
+.subscribe_form{
+    margin: 22px 0 0 467px;
+}
+.subscribe_inputText{
+    width: 281px;
+    height: 60px;
+    padding-left: 22px;
+    padding-top: 7px;
+
+    border-radius: 3px 0 0 3px;
+    background-color: white;
+    border: 0;
+
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: black;
+}
+.subscribe_button{
+    width: 62px;
+    height: 60px;
+    vertical-align: bottom;
+    margin-left:  -5px;
+
+    border-radius: 0 3px 3px 0;
+    border: 0;
+    padding-top: 10px;
+    background-color: #16a085;
+}
+
+.subscribe_button:hover{
+    cursor: pointer;
+}
+.download{
+    background-color: #f5f6f7;
+}
+.download_info{
+    text-align: center;
+    padding-top: 82px;
+}
+.download_title{
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #373737;
+}
+.download_text{
+    text-transform: uppercase;
+
+    height: 70px;
+    width: 870px;
+    margin: 1px auto;
+
+    font-size: 11px;
+    letter-spacing: 0.63mm;
+    line-height: 22px;
+    color: #373737;
+
+}
+.download_buttons{
+    width: 619px;
+    height: 172px;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin: 36px auto 0;
+
+}
+.download_button{
+    width: 298px;
+    height: 56px;
+    display: flex;
+    text-decoration: none;
+}
+.download_form_text_apple{
+    width: 240px;
+    height: 100%;
+
+
+    border-radius: 3px 0 0 3px;
+    background-color: #1abc9c;
+
+    padding-top: 15px;
+    padding-left: 24px;
+
+    font-family: "GothamRoundedMedium";
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: white;
+
+}
+.download_form_text_play{
+    width: 240px;
+    height: 100%;
+
+
+    border-radius: 3px 0 0 3px;
+    background-color: #1abc9c;
+
+    padding-top: 15px;
+    padding-left: 30px;
+
+    font-family: "GothamRoundedMedium";
+    font-size: 17px;
+    letter-spacing: 2px;
+    color: white;
+
+}
+.download_form_text_apple:hover, .download_form_text_play:hover{
+    transition: 0.2s linear;
+    background-color: #16a085;
+}
+.download_form_icon{
+    width: 57px;
+    height: 100%;
+
+    border-radius: 0 3px 3px 0;
+    background-color: #16a085;
+
+    padding-top: 15px;
+    padding-left: 16px;
+}
+
+
+.footer{
+
+    background-color: white;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.footer_nav{
+    padding: 40px 0 0 127px;
+    font-size: 13px;
+    letter-spacing: 3px;
+
+}
+.footer_nav_link{
+    text-decoration: none;
+    color: #373737;
+    margin-top: -4px;
+
+}
+.footer_nav_link:hover{
+    transition: 0.2s linear;
+    color: red;
+}
+
+.footer_nav a:not(:last-child)::after{
+    content: "";
+    display: inline-block;
+    background-color: #16a085;
+    width: 2px;
+
+    height: 10px;
+    border-radius: 2px;
+
+
+}
+
+.footer_text{
+    margin: 14px 0 0 127px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.footer_logo{
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 1098px;
+}
